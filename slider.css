@@ -40,6 +40,11 @@ body {
     object-fit: cover;
 }
 
+.slider {
+    display: flex;
+    transition: all 1s ease;
+}
+
 
 .bottom {
     display: flex;
@@ -51,4 +56,5 @@ body {
     height: 15px;
     border-radius: 50%;
     border: 1px solid white;
+    cursor: pointer;
 }
